@@ -1,0 +1,5 @@
+en:
+  site_settings:
+    telegram_auth_enabled: "Enable Telegram authentication, requires telegram_bot_token. See <a href='https://meta.discourse.org/t/13745' target='_blank'>Configuring GitHub login for Discourse</a>."
+    telegram_auth_bot_name: "Bot name for Telegram authentication."
+    telegram_auth_bot_token: "Bot token for Telegram authentication."
