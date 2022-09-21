@@ -1,0 +1,10 @@
+{
+  "name": "discourse-telegram-auth",
+  "version": "1.0.0",
+  "repository": "git@github.com:mjsir911/discourse-telegram-auth.git",
+  "author": "Discourse",
+  "license": "AGPL",
+  "devDependencies": {
+    "eslint-config-discourse": "^1.1.3"
+  }
+}
