@@ -6,12 +6,13 @@
 # authors: Marco Sirabella
 # url: https://github.com/mjsir911/discourse-telegram-auth
 
-gem 'omniauth-telegram', '0.2.1'
+gem 'omniauth-telegram', '0.2.1', require: false
 
 enabled_site_setting :telegram_auth_enabled
 
 register_svg_icon "fab-telegram"
 
+require "omniauth/telegram"
 class ::TelegramAuthenticator < ::Auth::ManagedAuthenticator
   def name
     "telegram"
