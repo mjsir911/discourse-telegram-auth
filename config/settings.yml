@@ -4,6 +4,6 @@ plugins:
   telegram_auth_bot_name:
     default: ''
     regex: ".+_bot"
-  telegram_auth_bot_token:
+  telegram_access_token:
     default: ''
     regex: "^[0-9]{10}:[a-zA-Z0-9_-]{35}$"
