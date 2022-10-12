@@ -27,7 +27,7 @@ class ::TelegramAuthenticator < ::Auth::ManagedAuthenticator
            setup: lambda { |env|
              strategy = env["omniauth.strategy"]
              strategy.options[:bot_name] = SiteSetting.telegram_auth_bot_name
-             strategy.options[:bot_secret] = SiteSetting.telegram_access_token
+             strategy.options[:bot_secret] = SiteSetting.telegram_auth_bot_token
            }
   end
 end
