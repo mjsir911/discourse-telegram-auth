@@ -12,6 +12,8 @@ enabled_site_setting :telegram_auth_enabled
 
 register_svg_icon "fab-telegram"
 
+extend_content_security_policy script_src: ['https://telegram.org/js/telegram-widget.js']
+
 require "omniauth/telegram"
 class ::TelegramAuthenticator < ::Auth::ManagedAuthenticator
   def name
